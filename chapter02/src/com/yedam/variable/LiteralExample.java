@@ -55,6 +55,30 @@ public class LiteralExample {
 		
 		
 		
+		//실수 타입float
+		//float		
+		float fVal = 3.14f;
+		//double
+		double dVal = 3.14;
+		
+		//e 사용하기 
+		double dVal2 = 30000000000.0; // 3*(10의 6승)
+		float fVal2 = 3e6f;  //3*(10의 6승)
+		double dVal3 = 2e-3; //2*(10의 -3승) -> 2/1000
+		
+		System.out.println(dVal2);
+		System.out.println(fVal2);
+		System.out.println(dVal3);
+		System.out.println(dVal2);
+		
+		//논리 타입
+		boolean stop = true;	
+		if(stop) {
+			System.out.println("중지합니다.");
+		}else {
+			System.out.println("시작합니다.");
+		}
+		
 		
 	}
 }
